@@ -27,7 +27,7 @@ const default_configuration = {
   },
   disabled: [],
   localIcons: false,
-  fastlink: "https://www.chatgpt.com",
+  fastlink: "https://www.google.com",
   openLastVisitedTab: true,
   tabs: [
     {
@@ -60,6 +60,12 @@ const default_configuration = {
               url: "https://catppuccin.com",
               icon: "cat",
               icon_color: palette.mauve,
+            },
+            {
+              name: "youtube",
+              url: "https://www.youtube.com",
+              icon: "brand-youtube",
+              icon_color: palette.maroon,
             },
           ],
         },
@@ -104,55 +110,45 @@ const default_configuration = {
             },
           ],
         },
-        
+
       ],
     },
     {
-      name: "chi ll",
+      name: "SCHOOL",
       background_url: "src/img/banners/banner_01.gif",
       categories: [
         {
-          name: "social media",
+          name: "workspace",
           links: [
             {
-              name: "instagram",
-              url: "https://www.instagram.com/",
-              icon: "brand-instagram",
-              icon_color: palette.red,
-            },
-            {
-              name: "discord",
-              url: "https://www.discord.com/",
-              icon: "brand-discord",
-              icon_color: palette.blue,
-            },
-          ],
-        },
-        {
-          name: "gaming",
-          links: [
-            {
-              name: "IGN",
-              url: "https://www.ign.com/account/playlist/library",
-              icon: "device-gamepad",
+              name: "classroom",
+              url: "https://classroom.google.com/",
+              icon: "chalkboard",
               icon_color: palette.green,
             },
             {
-              name: "epicgames",
-              url: "https://store.epicgames.com",
-              icon: "brand-fortnite",
+              name: "drive",
+              url: "https://drive.google.com/",
+              icon: "brand-google-drive",
+              icon_color: palette.yellow,
+            },
+            {
+              name: "schoolkiwi",
+              url: "https://marcellin.school.kiwi/",
+              icon: "school",
+              icon_color: palette.blue,
+            },
+            {
+              name: "gmail",
+              url: "https://mail.google.com/",
+              icon: "mail",
               icon_color: palette.red,
             },
-          ],
-        },
-        {
-          name: "video",
-          links: [
             {
-              name: "youtube",
-              url: "https://www.youtube.com",
-              icon: "brand-youtube",
-              icon_color: palette.maroon,
+              name: "nzqa",
+              url: "https://taku.nzqa.govt.nz/learner-home/",
+              icon: "building-bank",
+              icon_color: palette.teal,
             },
           ],
         },
