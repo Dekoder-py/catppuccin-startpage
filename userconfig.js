@@ -38,16 +38,16 @@ const default_configuration = {
           name: "bookmarks",
           links: [
             {
+              name: "youtube",
+              url: "https://www.youtube.com",
+              icon: "brand-youtube",
+              icon_color: palette.maroon,
+            },
+            {
               name: "monkeytype",
               url: "https://monkeytype.com",
               icon: "keyboard",
               icon_color: palette.mauve,
-            },
-            {
-              name: "musicForProgramming();",
-              url: "https://musicforprogramming.net",
-              icon: "binary-tree",
-              icon_color: palette.peach,
             },
             {
               name: "apple",
@@ -56,17 +56,12 @@ const default_configuration = {
               icon_color: palette.peach,
             },
             {
-              name: "Catppuccin",
+              name: "catppuccin",
               url: "https://catppuccin.com",
               icon: "cat",
               icon_color: palette.mauve,
             },
-            {
-              name: "youtube",
-              url: "https://www.youtube.com",
-              icon: "brand-youtube",
-              icon_color: palette.maroon,
-            },
+            
           ],
         },
       ],
@@ -83,6 +78,12 @@ const default_configuration = {
               url: "https://github.com",
               icon: "brand-github",
               icon_color: palette.mauve,
+            },
+            {
+              name: "musicForProgramming();",
+              url: "https://musicforprogramming.net",
+              icon: "binary-tree",
+              icon_color: palette.peach,
             },
             {
               name: "chatgpt",
@@ -133,7 +134,7 @@ const default_configuration = {
               icon_color: palette.yellow,
             },
             {
-              name: "schoolkiwi",
+              name: "schoolKiwi",
               url: "https://marcellin.school.kiwi/",
               icon: "school",
               icon_color: palette.blue,
