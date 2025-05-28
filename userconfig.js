@@ -115,7 +115,7 @@ const default_configuration = {
     },
     {
       name: "SCHOOL",
-      background_url: "src/img/banners/banner_01.gif",
+      background_url: "src/img/banners/banner_14.gif",
       categories: [
         {
           name: "workspace",
