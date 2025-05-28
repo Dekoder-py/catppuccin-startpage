@@ -61,7 +61,7 @@ const default_configuration = {
               icon: "cat",
               icon_color: palette.mauve,
             },
-            
+
           ],
         },
       ],
@@ -115,8 +115,8 @@ const default_configuration = {
       ],
     },
     {
-      name: "sch ool",
-      background_url: "src/img/banners/banner_14.gif",
+      name: "school",
+      background_url: "src/img/banners/banner_18.gif",
       categories: [
         {
           name: "workspace",
