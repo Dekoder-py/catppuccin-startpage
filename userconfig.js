@@ -206,7 +206,7 @@ const default_configuration = {
     },
     {
       name: "chi ll",
-      background_url: "src/img/banners/banner_08.gif",
+      background_url: "src/img/banners/banner_01.gif",
       categories: [
         {
           name: "social media",
@@ -216,6 +216,12 @@ const default_configuration = {
               url: "https://www.instagram.com/",
               icon: "brand-instagram",
               icon_color: palette.red,
+            },
+            {
+              name: "discord",
+              url: "https://www.discord.com/",
+              icon: "brand-discord",
+              icon_color: palette.blue,
             },
           ],
         },
@@ -229,22 +235,10 @@ const default_configuration = {
               icon_color: palette.green,
             },
             {
-              name: "steam",
-              url: "https://store.steampowered.com",
-              icon: "brand-steam",
-              icon_color: palette.peach,
-            },
-            {
               name: "epicgames",
               url: "https://store.epicgames.com",
               icon: "brand-fortnite",
               icon_color: palette.red,
-            },
-            {
-              name: "nintendo",
-              url: "https://store.nintendo.co.uk",
-              icon: "device-nintendo",
-              icon_color: palette.blue,
             },
           ],
         },
@@ -252,28 +246,10 @@ const default_configuration = {
           name: "video",
           links: [
             {
-              name: "anilist",
-              url: "https://anilist.co/home",
-              icon: "brand-funimation",
-              icon_color: palette.green,
-            },
-            {
               name: "youtube",
               url: "https://www.youtube.com",
               icon: "brand-youtube",
               icon_color: palette.peach,
-            },
-            {
-              name: "patreon",
-              url: "https://www.patreon.com",
-              icon: "brand-patreon",
-              icon_color: palette.red,
-            },
-            {
-              name: "kyivstar",
-              url: "https://tv.kyivstar.ua",
-              icon: "star-filled",
-              icon_color: palette.blue,
             },
           ],
         },
