@@ -77,6 +77,10 @@ Date.prototype.strftime = function (format = "c") {
       c: date.toDateString() + " - " + date.toTimeString(),
       x: date.toLocaleDateString(),
       X: date.toLocaleTimeString(),
+      I: (() => {
+    let hr = date.getHours() % 12;
+    return (hr === 0 ? 12 : hr).toString().padStart(2, "0");
+  })(),
     };
 
   format.split(/(\w|.)/m).forEach((type) => {
