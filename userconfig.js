@@ -38,10 +38,10 @@ const default_configuration = {
           name: "bookmarks",
           links: [
             {
-              name: "raindrop",
-              url: "https://app.raindrop.io",
-              icon: "droplet-bolt",
-              icon_color: palette.green,
+              name: "monkeytype",
+              url: "https://monkeytype.com",
+              icon: "keyboard",
+              icon_color: palette.mauve,
             },
             {
               name: "musicForProgramming();",
