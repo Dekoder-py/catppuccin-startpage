@@ -249,7 +249,7 @@ const default_configuration = {
               name: "youtube",
               url: "https://www.youtube.com",
               icon: "brand-youtube",
-              icon_color: palette.peach,
+              icon_color: palette.maroon,
             },
           ],
         },
