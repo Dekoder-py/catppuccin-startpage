@@ -14,7 +14,7 @@ const default_configuration = {
     scale: "C",
   },
   clock: {
-    format: "I:m p",
+    format: "I:i p",
     icon_color: palette.maroon,
   },
   search: {
