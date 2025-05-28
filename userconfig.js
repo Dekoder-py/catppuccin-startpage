@@ -128,13 +128,19 @@ const default_configuration = {
               name: "github",
               url: "https://github.com",
               icon: "brand-github",
-              icon_color: palette.green,
+              icon_color: palette.mauve,
             },
             {
-              name: "neptune",
-              url: "https://ui.neptune.ai",
-              icon: "circle-triangle",
+              name: "chatgpt",
+              url: "https://chatgpt.com",
+              icon: "brand-openai",
               icon_color: palette.peach,
+            },
+            {
+              name: "tablericons",
+              url: "https://tabler.io/icons",
+              icon: "icons",
+              icon_color: palette.blue,
             },
             {
               name: "stackoverflow",
@@ -144,64 +150,7 @@ const default_configuration = {
             },
           ],
         },
-        {
-          name: "challenges",
-          links: [
-            {
-              name: "kaggle",
-              url: "https://www.kaggle.com",
-              icon: "brain",
-              icon_color: palette.green,
-            },
-            {
-              name: "leetcode",
-              url: "https://leetcode.com",
-              icon: "code-plus",
-              icon_color: palette.peach,
-            },
-            {
-              name: "exercism",
-              url: "https://exercism.org",
-              icon: "code-minus",
-              icon_color: palette.red,
-            },
-            {
-              name: "aoc",
-              url: "https://adventofcode.com",
-              icon: "brand-linktree",
-              icon_color: palette.blue,
-            },
-          ],
-        },
-        {
-          name: "resources",
-          links: [
-            {
-              name: "dou",
-              url: "https://dou.ua",
-              icon: "brand-prisma",
-              icon_color: palette.green,
-            },
-            {
-              name: "hackernews",
-              url: "https://news.ycombinator.com",
-              icon: "brand-redhat",
-              icon_color: palette.peach,
-            },
-            {
-              name: "uber engineering",
-              url: "https://www.uber.com/en-GB/blog/london/engineering",
-              icon: "brand-uber",
-              icon_color: palette.red,
-            },
-            {
-              name: "netflix tech blog",
-              url: "https://netflixtechblog.com",
-              icon: "brand-netflix",
-              icon_color: palette.blue,
-            },
-          ],
-        },
+        
       ],
     },
     {
