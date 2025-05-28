@@ -114,7 +114,7 @@ const default_configuration = {
       ],
     },
     {
-      name: "SCHOOL",
+      name: "sch ool",
       background_url: "src/img/banners/banner_14.gif",
       categories: [
         {
