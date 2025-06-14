@@ -17,14 +17,6 @@ const default_configuration = {
     format: "I:i p",
     icon_color: palette.maroon,
   },
-  additionalClocks: [
-    {
-      label: "UA",
-      timezone: "Europe/Kyiv",
-      format: "h:i",
-      icon_color: palette.peach,
-    },
-  ],
   search: {
     engines: {
       g: ["https://google.com/search?q=", "Google"],
@@ -124,7 +116,7 @@ const default_configuration = {
     },
     {
       name: "school",
-      background_url: "src/img/banners/banner_18.gif",
+      background_url: "src/img/banners/banner_14.gif",
       categories: [
         {
           name: "workspace",
